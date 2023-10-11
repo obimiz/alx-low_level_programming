@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: "Hello, printf"
+ * Description: Hello, printf
  * Return: Always 0 (Success)
  */
 int main(void)
