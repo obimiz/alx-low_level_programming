@@ -1,12 +1,12 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - Entry point
- * Description: Hello,printf
- * Return: Always 0 (Success)
+ * main - A C program
+ * Description: A C program that prints a standard output to an error
+ * Return: Return 1 (success)
  */
 int main(void)
 {
-	system("echo 'and that piece of art is useful\" \- Dora Korpar, 2015-10-19'");
-	
-	return(1)
+	 fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+		 return (1);
 }
