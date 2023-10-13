@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Prints numbers from 0 t0 9.
+ * main - Prints numbers from 0 t0 9.
  * Description: Numbers
  * Return: Always 0 (success)
  */
