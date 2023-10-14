@@ -8,11 +8,9 @@ int main(void)
 {
 	int n, m;
 
-	for (n = 0; n < 10; n++)
+	for (n = 0; n < 9; n++)
 	{
-		for (m = 0;  m < 10; m++)
-		{
-			if (n < j)
+		for (m = n + 1;  m < 10; m++)
 			{
 				putchar(n + '0');
 				putchar(m + '0');
@@ -22,7 +20,6 @@ int main(void)
 					putchar(' ');
 				}
 			}
-		}
 	}
 	putchar('\n');
 	return (0);
