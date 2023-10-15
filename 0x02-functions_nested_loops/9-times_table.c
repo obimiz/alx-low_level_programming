@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.hi"
 
 /**
  * times_table - Prints the times tab
@@ -14,7 +14,7 @@ void times_table(void)
 		for (y = 0; y <= 9; y++)
 		{
 			z = x * y;
-			if (z < 9)
+			if (z > 9)
 			{
 				u = z % 10;
 				d = (z - u) / 10;
