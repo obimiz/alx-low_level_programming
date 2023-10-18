@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints xters of a string
- * @str: the string used reference 
+ * @str: the string used reference
  * Return: 0
  */
 void puts2(char *str)
